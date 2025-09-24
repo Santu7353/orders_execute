@@ -45,7 +45,6 @@ public class DriverConfig {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //        driver.get(pdata.getPropertyFile("urlQA"));
         driver.get(pdata.getPropertyFile("urlfuture"));
-        driver.get(pdata.getPropertyFile("urlfuture"));
         System.out.println("URL entered");
         driver.findElement(By.xpath("(//button[@class='authorization__btn'])[81]")).click();
 
